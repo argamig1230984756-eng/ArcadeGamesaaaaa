@@ -1,0 +1,20 @@
+# Temple Run settings
+enabled: true
+default-min-players: 2
+default-max-players: 16
+round-seconds: 180
+
+# What happens when a player loses: SPECTATOR or LOBBY.
+elimination:
+  mode: SPECTATOR
+
+# Temple Run course tools register checkpoints, coin spawns and finish plates in arenas.yml.
+course:
+  checkpoints-enabled: true
+  coins-enabled: true
+  finishes-enabled: true
+  return-to-checkpoint-on-fall: true
+  coin-value: 1
+  coin-item: GOLD_INGOT # Any valid Minecraft material, e.g. GOLD_INGOT, GOLD_NUGGET, DIAMOND\n  coin-height: 0.35 # Height above the configured coin location in blocks
+  announce-finish-order: true
+  results-count: 3
